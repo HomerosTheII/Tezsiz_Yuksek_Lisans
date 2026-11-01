@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-# db_supervised = pd.read_csv("./Hafta_4/supervised.csv")
-db_unsupervised = pd.read_csv("./Hafta_4/unsupervised.csv")
+# db_supervised = pd.read_csv("./YZM535/Hafta_4/supervised.csv")
+db_unsupervised = pd.read_csv("./YZM535/Hafta_4/unsupervised.csv")
 
 # x_sup = db_supervised[["StudyHours"]] # Öğrenmesini istediğimiz değişken
 # y_sup = db_supervised["ExamScore"] # Etiket

@@ -14,9 +14,8 @@ from sklearn.metrics import (
     f1_score,
     confusion_matrix
 )
-
 # 1. Load the dataset
-df = pd.read_csv("100_kisilik_sinif.csv")
+df = pd.read_csv("./YZM535/Hafta_4/100_kisilik_sinif.csv")
 
 # 2. Select features and target
 X = df[["Ortalama", "Devamsizlik"]]

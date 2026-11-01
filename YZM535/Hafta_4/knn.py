@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 1. Load the dataset
-df = pd.read_csv("100_kisilik_sinif.csv")
+df = pd.read_csv("./YZM535/Hafta_4/100_kisilik_sinif.csv")
 
 print(df.head())
 
